@@ -123,19 +123,19 @@ def main():
     print('\033[38;5;46m   [01] GAME IDZ CLONING')
     print('\033[38;5;46m   [02] CONTACT ME FACEBOOK')
     print('\033[38;5;46m   [03] PYTHON CLASS CHANNEL')
-    TC-R = input('\n\x1b[1;32m   CHOOSE : ')
-    if TC-R == '1':
+    TC_R = input('\n\x1b[1;32m   CHOOSE : ')
+    if TC_R == '1':
     	os.system('espeak -a 300 "random cloning start"')
     os.system('xdg-open https://t.me/TEAMCIPHER404/')
     time.sleep(5)
     T-C()
-    if TC-R == '2':
+    if TC_R == '2':
         os.system('xdg-open https://t.me/TEAMCIPHER404')
         T-C()
-    if TC-R == '3':
+    if TC_R == '3':
         os.system('xdg-open https://t.me/TEAMCIPHER404')
         T-C()
-    if TC-R == '0': 
+    if TC_R == '0': 
         os.system('exit')
         return None
 
