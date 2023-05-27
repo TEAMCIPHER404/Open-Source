@@ -128,13 +128,13 @@ def main():
     	os.system('espeak -a 300 "random cloning start"')
     os.system('xdg-open https://t.me/TEAMCIPHER404/')
     time.sleep(5)
-    T-C()
+    T_R()
     if TC_R == '2':
         os.system('xdg-open https://t.me/TEAMCIPHER404')
-        T-C()
+        T_R()
     if TC_R == '3':
         os.system('xdg-open https://t.me/TEAMCIPHER404')
-        T-C()
+        T_R()
     if TC_R == '0': 
         os.system('exit')
         return None
@@ -146,7 +146,7 @@ logo = ("""
 \033[96m  ║\x1b[97;1m [\033[38;5;196m•\x1b[97;1m] \033[38;5;46mAUTHOR   : \x1b[97;1mTE4M CIPH3R                        \033[96m║
 \033[96m  ║\x1b[97;1m [\033[38;5;196m•\x1b[97;1m] \033[38;5;46mGITHUB   : \x1b[97;1mTEAM-CIPHER-404                    \033[96m║
 \033[96m  ║\x1b[97;1m [\033[38;5;196m•\x1b[97;1m] \033[38;5;46mWHATSAPP : \x1b[97;1m+8801905-571136                    \033[96m║
-\033[96m  ║\x1b[97;1m [\033[38;5;196m•\x1b[97;1m] \033[38;5;46mVERSION  : \x1b[97;1m{vers}\x1b[1;94m	                              \033[96m║
+\033[96m  ║\x1b[97;1m [\033[38;5;196m•\x1b[97;1m] \033[38;5;46mVERSION  : \x1b[97;1m1.1\x1b[1;94m	                          \033[96m║
 \033[95m  ╚═════════════════════════\033[38;5;196m〄\033[95m════════════════════════╝\033[1;97m""")
 
 try:
@@ -165,7 +165,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 # APK CHECK
-def T-C():
+def T_R():
     user=[]
     twf =[]
     os.getuid
