@@ -237,7 +237,7 @@ def uaku():
         for ub in ff:
             ugen.append(ub)
     except:
-        a=requests.get('https://raw.githubusercontent.com/TEAM-CIPHER-404/_/main/.TC-AUGEN.txt').text.splitlines()
+        a=requests.get('https://raw.githubusercontent.com/TEAM-CIPHER-404/data/main/api_user-agent.txt').text.splitlines()
         ff=open('show.txt','w')
         for un in ff:
             ff.write(un+'\n')
