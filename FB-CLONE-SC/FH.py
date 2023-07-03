@@ -227,21 +227,21 @@ for x in range(10):
     k=random.randrange(1, 9)
     l='Mobile WVGA SMM-SAMIR/1.2.0 OPN-B'
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-    ##USER AGENT START##
-    
-    
-    ##
-def uaku():
-    try:
-        ff=open('show.txt','r').read().splitlines()
-        for ub in ff:
-            ugen.append(ub)
-    except:
-        a=requests.get('https://raw.githubusercontent.com/TEAM-CIPHER-404/data/main/dalvik_user-agent.txt').text.splitlines()
-        ff=open('show.txt','w')
-        for un in ff:
-            ff.write(un+'\n')
-        ff=open('show.txt','r').read().splitlines()
+    ##USER AGENT START#
+
+
+ugen = []
+try:
+    uf=open('user-agent.txt','r').read().splitlines()
+    for ua in uf:
+        ugen.append(ua)
+except:
+    uagent = requests.get('https://raw.githubusercontent.com/TEAM-CIPHER-404/data/main/dalvik_user-agent.txt').text.splitlines()
+    uf=open('user-agent.txt','w')
+    for ua in uagent:
+        uf.write(ua+'\n')
+
+
 def jalan(z):
 
     for e in z + '\n':
