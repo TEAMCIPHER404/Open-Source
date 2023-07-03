@@ -399,7 +399,7 @@ def sh6():
         print(logo)
         tl = str(len(user))
         print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
-        print(f"{P}[{H}•{P}]{GREEN}WElCOME  MY TOOLS     : {GREEN}"+name)
+        print(f"{P}[{H}•{P}]{GREEN}WElCOME  MY TOOLS     : {GREEN}")
         print(f"{P}[{H}•{P}]{RED}TOTAL IDZ             : {GREEN}"+tl)
         print(f"{P}[{H}•{P}]{GREEN}NUMBER YOU PUT        : {GREEN}"+code)
         print(f"{P}[{H}•{P}]{RED}TO STOP PROCESS Ctrl + Z ")
